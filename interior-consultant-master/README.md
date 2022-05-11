@@ -4,5 +4,5 @@
 </h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+ 
 - Website [preview](https://shahshan20.github.io/interior-consultant-master/interior-consultant-master/index.html)
