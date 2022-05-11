@@ -5,4 +5,4 @@
 
 <div align="center">
  
-- Website [preview](https://shahshan20.github.io/interior-consultant-master/interior-consultant-master/index.html)
+ [preview](https://shahshan20.github.io/interior-consultant-master/interior-consultant-master/index.html)
