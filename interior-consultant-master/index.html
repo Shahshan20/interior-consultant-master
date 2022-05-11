@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="thisinterior">
+      This INTERIOR
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">Home</a>
+        <a href="#">Collection</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <span  class="cc" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+
+      
+    <div class="nav">
+
+        <nav>
+      <a href="#" class="right">Home</a>
+      <a href="#" class="right">Collection</a>
+      <a href="#" class="right">About</a>
+      <a href="#" class="right">Contact</a>
+    </nav>
+    </div>
+    <div class="container">
+    <div class="leftwrapper">
+      <h1 class="heading">Modern interior</h1>
+      <p class="text"> A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+      <p class="read">Read more</p>
+    </div>
+    <div class="rightwrapper">
+      <img class="img1" src="photo1.png" alt="">
+      <div class="box">
+        <div class="flexbox">
+        
+        <img src="photo2.png" alt="" class="img2">
+        <div class="details">
+        <p class="imgname">Aliza Webber </p>
+        <p class="designaton"> interior Designer </p>
+      </div>
+      </div>
+      
+        <div class="design"> Designed in 2020 by Aliza Webbe</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    created by Shahshan - devChallenges.io
+  </div>
+   
+
+   
+  </body>
+</html>
